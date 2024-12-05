@@ -360,12 +360,12 @@ function enableAuthoringAssistantExtension() {
   const meta = document.createElement('meta');
   meta.name = 'urn:adobe:aue:config:extensions';
   const params = new URLSearchParams(window.location.search);
-  console.log('AEM Forms Authoring Assistant extension Params: ', params);
   const version = params.get('livecycle-authoring-assistant-spa_version');
+  console.log('AEM Forms Authoring Assistant extension version: ', version);
   if (version) {
     meta.content = `https://experience-stage.adobe.com/solutions/livecycle-authoring-assistant-spa?livecycle-authoring-assistant-spa_version=${version}`;
   } else {
-    meta.content = `https://experience-stage.adobe.com/solutions/livecycle-authoring-assistant-spa`;
+    meta.content = `https://experience-stage.adobe.com/solutions/livecycle-authoring-assistant-spa?livecycle-authoring-assistant-spa_version=PR-131-496d9a01ffa0a154353cb78308144531bf446bf0`;
   }
   console.log('Adding meta tag for aem forms authoring assistant extension: ', meta.content);
   head.appendChild(meta);
