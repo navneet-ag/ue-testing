@@ -386,11 +386,11 @@ function enableRuleEditorExtension() {
   console.log('Adding meta tag for rule editor extension: ', meta.content);
   head.appendChild(meta);
 }
-enableRuleEditorExtension();
+//enableRuleEditorExtension();
 
 
 const observer = new MutationObserver(instrumentForms);
 observer.observe(document, { childList: true, subtree: true, attributeFilter: ['form'] });
 loadCSS(`${window.hlx.codeBasePath}/scripts/form-editor-support.css`);
-enableExtension();
+//enableExtension();
 enableAuthoringAssistantExtension();
