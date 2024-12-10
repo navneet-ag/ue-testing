@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: https://5dc2-103-43-112-97.ngrok-free.app/bin/franklin.delivery/navneet-ag/ue-testing/main
+    url: https://a185-103-43-112-97.ngrok-free.app/bin/franklin.delivery/navneet-ag/ue-testing/main
     type: "markup"
     suffix: ".html"
