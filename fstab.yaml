@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: https://a185-103-43-112-97.ngrok-free.app/bin/franklin.delivery/navneet-ag/ue-testing/main
+    url: https://author-p107005-e259039-cmstg.adobeaemcloud.com/bin/franklin.delivery/navneet-ag/ue-testing/main
     type: "markup"
     suffix: ".html"
